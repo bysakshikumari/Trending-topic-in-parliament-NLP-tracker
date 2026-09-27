@@ -9,7 +9,6 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 st.set_page_config(page_title="What's Trending in Parliament", page_icon="🏛️", layout="wide")
 
-# ---------- Load data ----------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_PATH = os.path.join(BASE_DIR, "data", "parliament_debates.csv")
 
