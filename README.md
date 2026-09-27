@@ -4,7 +4,7 @@ An interactive tool tracking which topics dominated Lok Sabha and Rajya Sabha de
 from 2015 to 2025, using keyword frequency analysis and theme tagging on real
 parliamentary records.
 
-**Live demo:** -
+**Live demo:** - https://trending-topic-in-parliament-nlp-tracker.streamlit.app/
 
 ## Problem
 
