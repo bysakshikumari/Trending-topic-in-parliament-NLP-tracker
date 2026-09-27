@@ -1,0 +1,51 @@
+year,session,house,type_of_debate,topic,start_date,duration_hms,participants,status
+2025,Budget Session 2025,Lok Sabha,President's Address,Motion of Thanks,2025-02-03,17:23:00,170,PM replied
+2025,Budget Session 2025,Lok Sabha,General Discussion,Budget 2025-26,2025-02-07,16:13:00,169,Minister replied
+2025,Budget Session 2025,Lok Sabha,General Discussion,Manipur Budget 2025-26,2025-03-11,07:53:00,39,Minister replied
+2025,Budget Session 2025,Lok Sabha,Demands for Grants,Ministry of Railways,2025-03-17,11:35:00,182,Minister replied
+2025,Budget Session 2025,Lok Sabha,Demands for Grants,Ministry of Jal Shakti,2025-03-18,08:17:00,145,Minister replied
+2025,Budget Session 2025,Lok Sabha,Discussion,Demands for Grants: Agriculture and Farmers Welfare,2025-03-21,04:22:00,123,Minister replied
+2025,Budget Session 2025,Lok Sabha,Discussion,Finance Bill 2025,2025-03-24,08:40:00,47,Minister replied
+2025,Budget Session 2025,Lok Sabha,Calling Attention,Hardships faced by fishermen community,2025-04-01,00:51:00,9,Minister replied
+2025,Budget Session 2025,Rajya Sabha,President's Address,Motion of Thanks,2025-02-03,17:28:00,72,PM replied
+2025,Budget Session 2025,Rajya Sabha,Suo-moto Statement,Deportation of Indian Nationals from USA,2025-02-06,00:35:00,11,Minister replied
+2025,Budget Session 2025,Rajya Sabha,General Discussion,Budget 2025-26,2025-02-10,17:16:00,88,Minister replied
+2025,Budget Session 2025,Rajya Sabha,Discussion,Working of the Ministry: Education,2025-03-11,06:18:00,30,Minister replied
+2025,Budget Session 2025,Rajya Sabha,Discussion,Working of the Ministry: Railways,2025-03-12,05:46:00,36,Minister replied
+2025,Budget Session 2025,Rajya Sabha,General Discussion,Manipur Budget 2025-26,2025-03-17,04:23:00,20,Minister replied
+2025,Budget Session 2025,Rajya Sabha,Discussion,Working of the Ministry: Health,2025-03-18,06:44:00,39,Minister replied
+2025,Budget Session 2025,Rajya Sabha,Discussion,Working of Ministry: Home Affairs,2025-03-19,05:32:00,24,Minister replied
+2025,Budget Session 2025,Rajya Sabha,Discussion,Finance Bill 2025,2025-03-27,05:25:00,29,Minister replied
+2025,Monsoon Session 2025,Lok Sabha,Special Discussion,Operation Sindoor,2025-07-28,18:41:00,68,PM replied
+2025,Monsoon Session 2025,Lok Sabha,Special Discussion,Critical role of Space Programme for Viksit Bharat by 2047,2025-08-18,00:39:30,1,Discussion not concluded
+2025,Monsoon Session 2025,Rajya Sabha,Special Discussion,Operation Sindoor,2025-07-29,15:58:00,62,Minister replied
+2024,Budget Session 2024,Lok Sabha,Motion of Thanks,President's Address,2024-02-02,15:28:00,116,PM replied
+2024,Budget Session 2024,Lok Sabha,Interim Union Budget,Interim Union Budget 2024-25,2024-02-07,07:06:00,87,Minister replied
+2024,Budget Session 2024,Lok Sabha,Motion Under Rule 342,White paper on the Indian Economy,2024-02-09,07:25:00,28,Minister replied
+2024,Budget Session 2024,Lok Sabha,Discussion under Rule 193,Historic construction of Shree Ram Temple and Pran Pratishta,2024-02-10,04:44:00,24,Discussion concluded
+2024,Budget Session 2024,Rajya Sabha,Motion of Thanks,President's Address,2024-02-02,14:31:00,56,PM replied
+2024,Budget Session 2024,Rajya Sabha,Interim Union Budget,Interim Union Budget 2024-25,2024-02-07,06:37:00,41,Minister replied
+2024,Budget Session 2024,Rajya Sabha,Motion Under Rule 342,White paper on the Indian Economy,2024-02-10,03:51:00,22,Discussion concluded
+2024,Budget Session 2024,Rajya Sabha,Short Duration Discussion,Historic construction of Shree Ram Temple and Pran Pratishta,2024-02-10,02:50:00,15,Discussion concluded
+2024,Winter Session 2024,Lok Sabha,Discussion,Glorious journey of 75 years of the Constitution of India,2024-12-13,15:43:00,136,PM replied
+2024,Winter Session 2024,Lok Sabha,Discussion,Supplementary Demands for Grants - First Batch 2024-25,2024-12-16,07:20:00,43,Minister replied
+2024,Winter Session 2024,Rajya Sabha,Discussion,Glorious journey of 75 years of the Constitution of India,2024-12-16,17:08:00,73,Minister replied
+2023,Budget Session 2023,Lok Sabha,President's Address,Motion of Thanks,2023-02-07,13:44:00,138,PM replied
+2023,Budget Session 2023,Lok Sabha,Union Budget,Union Budget 2023-24,2023-02-08,14:45:00,144,Discussion concluded
+2023,Budget Session 2023,Rajya Sabha,President's Address,Motion of Thanks,2023-02-07,13:49:00,43,PM replied
+2023,Budget Session 2023,Rajya Sabha,Union Budget,Union Budget 2023-24,2023-02-09,02:21:00,12,Discussion concluded
+2023,Winter Session 2023,Lok Sabha,Supplementary Demands for Grants,Supplementary Demands for Grants - First Batch 2023-24,2023-12-11,05:49:00,27,Discussion concluded
+2023,Winter Session 2023,Rajya Sabha,Short Duration Discussion,Economic Situation in the country,2023-12-05,10:25:00,45,Discussion concluded
+2022,Budget Session 2022,Lok Sabha,Motion of Thanks,President's Address,2022-02-02,15:19:00,119,PM replied
+2022,Budget Session 2022,Lok Sabha,The Union Budget,Union Budget 2022-2023,2022-02-07,15:35:00,143,Minister replied
+2021,Winter Session 2021,Lok Sabha,Discussion Under Rule 193,COVID-19 pandemic and various aspects related to it,2021-12-02,12:30:00,97,Discussion concluded
+2021,Winter Session 2021,Lok Sabha,Discussion Under Rule 193,Climate change,2021-12-08,06:30:00,60,Discussion not concluded
+2021,Winter Session 2021,Rajya Sabha,Short Duration Discussion,Omicron variant of COVID-19 virus in the country,2021-12-15,01:15:00,5,Minister replied
+2019,Budget Session 2019 (17th LS),Lok Sabha,Motion of Thanks,Motion of Thanks on the President's Address,2019-06-24,13:45:00,118,PM replied
+2018,Monsoon Session 2018,Lok Sabha,Discussion under 193,Recent flood and drought situation in various parts of the country,2018-07-25,05:00:00,70,Minister replied
+2016,Monsoon Session 2016,Lok Sabha,Discussion under 193,Atrocities against the Dalits in the country,2016-08-11,05:30:00,52,Minister replied
+2016,Monsoon Session 2016,Lok Sabha,Discussion under 193,Sustainable Development Goals (Environment and Forests),2016-08-03,04:37:00,21,Discussion not concluded
+2015,Monsoon Session 2015,Lok Sabha,Discussion under 193,Sustainable Development Goals (Statistics and Programme Implementation),2015-08-05,01:46:00,5,Discussion not concluded
+2015,Monsoon Session 2015,Lok Sabha,Calling Attention,Situation arising out of drought and flood condition in Karnataka resulting in suicide by farmers,2015-08-03,00:28:00,1,Not specified
+2015,Monsoon Session 2015,Rajya Sabha,Adjournment Motion,Action taken by Government on involvement of Union Minister in assisting a fugitive,2015-08-12,04:47:00,18,Minister replied
+2015,Monsoon Session 2015,Rajya Sabha,Discussion under 193,Matters arising out of Indian Premier League (IPL) controversy and other related issues,2015-08-11,00:17:00,1,Not specified
