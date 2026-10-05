@@ -88,7 +88,7 @@ require a speech-to-text pipeline off Sansad TV's live stream — a fundamentall
 different, much larger project. This gets you same-session-day freshness, which is the
 practical and honest version of "live" for a dataset like this.
 
-## Next steps (stretch goals, if extending this)
+## Next steps (future scope)
 
 - Scrape all sessions back to 2009 (PRS's earliest available year) for a longer trend.
 - Add Lok Sabha *unstarred/starred question* subject-line data (a much larger, more
