@@ -126,7 +126,7 @@ def extract_keywords(text_series: pd.Series, top_n: int = 15) -> pd.DataFrame:
 
 
 # ================= HEADER =================
-st.title("🏛️ What's Trending in Parliament")
+st.title("What's Trending in Parliament")
 st.caption(
     "Tracking which topics dominated Lok Sabha & Rajya Sabha debates (2015–2025), "
     "built from real records published by PRS Legislative Research."
@@ -135,9 +135,9 @@ st.caption(
 if os.path.exists(LAST_UPDATED_PATH):
     with open(LAST_UPDATED_PATH) as f:
         last_updated = f.read().strip()
-    st.info(f"📅 Data last refreshed: {last_updated} — run `update_data.py` during a live session for newer records.")
+    st.info(f"Data last refreshed: {last_updated} — run `update_data.py` during a live session for newer records.")
 else:
-    st.info("📅 Static dataset covering 2015–2025. Run `update_data.py` during a live Parliament session to refresh.")
+    st.info("Static dataset covering 2015–2025. Run `update_data.py` during a live Parliament session to refresh.")
 
 # ================= FILTERS =================
 years = sorted(df["year"].unique())
@@ -175,7 +175,7 @@ st.write("")
 
 # ================= SPOTLIGHT =================
 if not filtered.empty:
-    st.subheader("🔦 Debate Spotlight")
+    st.subheader("Debate Spotlight")
     sp1, sp2 = st.columns(2)
 
     longest = filtered.loc[filtered["duration_minutes"].idxmax()]
@@ -184,7 +184,7 @@ if not filtered.empty:
     with sp1:
         st.markdown(
             f"""<div class="spotlight-card">
-            <div class="spotlight-title">⏱️ Longest debate: {longest['topic']}</div>
+            <div class="spotlight-title">Longest debate: {longest['topic']}</div>
             <div class="spotlight-meta">{longest['house']} · {longest['session']} · {longest['duration_hms']} ·
             {int(longest['participants'])} participants · {longest['outcome']}</div>
             </div>""",
@@ -193,7 +193,7 @@ if not filtered.empty:
     with sp2:
         st.markdown(
             f"""<div class="spotlight-card">
-            <div class="spotlight-title">👥 Most-attended debate: {most_attended['topic']}</div>
+            <div class="spotlight-title">Most-attended debate: {most_attended['topic']}</div>
             <div class="spotlight-meta">{most_attended['house']} · {most_attended['session']} ·
             {int(most_attended['participants'])} participants · {most_attended['duration_hms']} · {most_attended['outcome']}</div>
             </div>""",
@@ -227,7 +227,7 @@ with tab1:
         )
         st.plotly_chart(fig2, use_container_width=True)
 
-    st.subheader("⏳ Debate duration by theme")
+    st.subheader("Debate duration by theme")
     fig_duration = px.box(
         filtered, x="theme", y="duration_minutes", color="theme",
         title="How long do debates run, by theme? (minutes)",
@@ -237,7 +237,7 @@ with tab1:
     st.plotly_chart(fig_duration, use_container_width=True)
 
 with tab2:
-    st.subheader("🔑 Most frequent keywords in debate topics")
+    st.subheader("Most frequent keywords in debate topics")
     kw_df = extract_keywords(filtered["topic"])
     if not kw_df.empty:
         fig3 = px.bar(
@@ -250,7 +250,7 @@ with tab2:
         st.info("No topics in this selection.")
 
 with tab3:
-    st.subheader("✅ What actually happened — outcome breakdown")
+    st.subheader("What actually happened — outcome breakdown")
     st.caption(
         "Sourced directly from PRS's own 'Remark' field per debate — not inferred. "
         "This is the most accurate 'result' data publicly available for debates (as opposed "
@@ -276,7 +276,7 @@ with tab4:
             use_container_width=True, hide_index=True,
         )
 
-    st.subheader("📋 Full dataset")
+    st.subheader("Full dataset")
     st.dataframe(
         filtered[["year", "session", "house", "type_of_debate", "topic", "start_date", "duration_hms", "participants", "theme", "outcome"]]
         .sort_values("start_date", ascending=False),
