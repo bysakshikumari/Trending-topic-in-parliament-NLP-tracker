@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
-st.set_page_config(page_title="What's Trending in Parliament", page_icon="🏛️", layout="wide")
+st.set_page_config(page_title="What's Trending in Parliament", layout="wide")
 
 # ---------- Custom styling ----------
 st.markdown(
@@ -203,7 +203,7 @@ if not filtered.empty:
 st.divider()
 
 # ================= TABS =================
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Trends", "🔑 Keywords", "✅ Outcomes", "🔍 Search & Full Data"])
+tab1, tab2, tab3, tab4 = st.tabs(["Trends", "Keywords", "Outcomes", "Search & Full Data"])
 
 with tab1:
     col1, col2 = st.columns(2)
@@ -266,7 +266,7 @@ with tab3:
     st.plotly_chart(fig5, use_container_width=True)
 
 with tab4:
-    st.subheader("🔍 Search debates by keyword")
+    st.subheader("Search debates by keyword")
     search_term = st.text_input("Type a keyword (e.g. 'budget', 'health', 'railways')")
     if search_term:
         matches = filtered[filtered["topic"].str.contains(search_term, case=False, na=False)]
