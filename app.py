@@ -100,14 +100,14 @@ df["theme"] = df["topic"].apply(tag_theme)
 def classify_outcome(status: str) -> str:
     s = str(status).lower()
     if "not concluded" in s:
-        return "⏳ Not concluded"
+        return "Not concluded"
     if "pm replied" in s:
-        return "🎤 PM personally replied"
+        return "PM personally replied"
     if "minister replied" in s:
-        return "👤 Minister replied"
+        return "Minister replied"
     if "concluded" in s:
-        return "✅ Concluded"
-    return "📋 Other / not specified"
+        return "Concluded"
+    return "Other / not specified"
 
 
 df["outcome"] = df["status"].apply(classify_outcome)
